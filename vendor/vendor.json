@@ -33,6 +33,13 @@
 			"revision": ""
 		},
 		{
+			"checksumSHA1": "gZQ6HheWahvZzIc3phBnOwoWHjE=",
+			"origin": "github.com/ethereum/go-ethereum/vendor/github.com/btcsuite/btcd/btcec",
+			"path": "github.com/btcsuite/btcd/btcec",
+			"revision": "f28da4f602fcd17624cf6d40d070253dd6663121",
+			"revisionTime": "2019-01-24T17:57:20Z"
+		},
+		{
 			"checksumSHA1": "GqIrOttKaO7k6HIaHQLPr3cY7rY=",
 			"origin": "github.com/hyperledger/fabric/vendor/github.com/containerd/continuity/pathdriver",
 			"path": "github.com/containerd/continuity/pathdriver",
@@ -199,6 +206,42 @@
 			"origin": "github.com/hyperledger/fabric/vendor/github.com/docker/go-units",
 			"path": "github.com/docker/go-units",
 			"revision": ""
+		},
+		{
+			"checksumSHA1": "fdWVoxe/8OffPe1R0oZjEsK7BMs=",
+			"path": "github.com/ethereum/go-ethereum/common",
+			"revision": "f28da4f602fcd17624cf6d40d070253dd6663121",
+			"revisionTime": "2019-01-24T17:57:20Z"
+		},
+		{
+			"checksumSHA1": "tvdkin+xdCuyH0IPqxbrHYGL1gc=",
+			"path": "github.com/ethereum/go-ethereum/common/hexutil",
+			"revision": "f28da4f602fcd17624cf6d40d070253dd6663121",
+			"revisionTime": "2019-01-24T17:57:20Z"
+		},
+		{
+			"checksumSHA1": "BP3m/oEeoC9ustdCYzAVS/gabqg=",
+			"path": "github.com/ethereum/go-ethereum/common/math",
+			"revision": "f28da4f602fcd17624cf6d40d070253dd6663121",
+			"revisionTime": "2019-01-24T17:57:20Z"
+		},
+		{
+			"checksumSHA1": "pTs+jg/LpykUnNWMQXwvZ82HWnQ=",
+			"path": "github.com/ethereum/go-ethereum/crypto",
+			"revision": "f28da4f602fcd17624cf6d40d070253dd6663121",
+			"revisionTime": "2019-01-24T17:57:20Z"
+		},
+		{
+			"checksumSHA1": "09V3eE1EhOkdfksyjsH+03c5fQg=",
+			"path": "github.com/ethereum/go-ethereum/crypto/secp256k1",
+			"revision": "f28da4f602fcd17624cf6d40d070253dd6663121",
+			"revisionTime": "2019-01-24T17:57:20Z"
+		},
+		{
+			"checksumSHA1": "zrskypwp1RbmLX2f/47diH1vxQc=",
+			"path": "github.com/ethereum/go-ethereum/rlp",
+			"revision": "f28da4f602fcd17624cf6d40d070253dd6663121",
+			"revisionTime": "2019-01-24T17:57:20Z"
 		},
 		{
 			"checksumSHA1": "rdPwDSll3wtWyd0/pgq/bz0MWVI=",

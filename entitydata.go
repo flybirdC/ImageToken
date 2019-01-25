@@ -36,6 +36,12 @@ const TokenKey = "Token"
 
 
 
+type UserCrypto struct {
 
+	TimeID string `json:"TimeID"`
+	Address string `json:"Address"`
+	Privatekey string `json:"Privatekey"`
+
+}
 
 

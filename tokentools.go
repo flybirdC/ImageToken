@@ -1,7 +1,10 @@
 package ImageToken
 
 import (
+	"encoding/hex"
 	"encoding/json"
+	"fmt"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 //token transffer
@@ -149,3 +152,22 @@ func (account *Account) balanceAll() map[string]float64  {
 }
 
 
+//user crypto - ethereum crypto
+func (account *Account)makeCryptoEcc()  (address string,privatekey string) {
+
+	key, err := crypto.GenerateKey()
+	if err != nil {
+		fmt.Println("Error: ,",err.Error())
+	}
+
+	//get Account address
+	address = crypto.PubkeyToAddress(key.PublicKey).Hex()
+	fmt.Printf("address[%d][%v]\n",len(address),address)
+
+	//get the private key
+	privatekey = hex.EncodeToString(key.D.Bytes())
+	fmt.Printf("privatekey[%d][%v]\n", len(privatekey),privatekey)
+
+	return address,privatekey
+
+}
